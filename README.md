@@ -56,7 +56,7 @@ LOCAL_PORT                           # The port number you wish to run the sampl
 
 # Callback URLs
 
-For a detailed introduction, check out our [Bandwidth Product Specific Callbacks](https://dev.bandwidth.com/docs/voice/webhooks) page.
+For a detailed introduction, check out our [Bandwidth Voice Callbacks](https://dev.bandwidth.com/docs/voice/webhooks) page.
 
 Below are the callback paths:
 * `/calls`
