@@ -45,10 +45,9 @@ The sample app uses the below environmental variables.
 
 ```sh
 BW_ACCOUNT_ID                        # Your Bandwidth Account Id
-BW_USERNAME                          # Your Bandwidth API Username
-BW_PASSWORD                          # Your Bandwidth API Password
+BW_CLIENT_ID                         # Your Bandwidth API OAuth Client Id
+BW_CLIENT_SECRET                     # Your Bandwidth API OAuth Client Secret
 BW_NUMBER                            # The Bandwidth phone number involved with this application
-USER_NUMBER                          # The user's phone number involved with this application
 BW_VOICE_APPLICATION_ID              # Your Voice Application Id created in the dashboard
 BASE_CALLBACK_URL                    # Your public base url to receive Bandwidth Webhooks. No trailing '/'
 LOCAL_PORT                           # The port number you wish to run the sample on
@@ -61,7 +60,7 @@ For a detailed introduction, check out our [Bandwidth Voice Callbacks](https://d
 Below are the callback paths:
 * `/calls`
 * `/callbacks/outbound/voice`
-* `/callbacks/outbound/gather`
+* `/callbacks/outbound/voice/gather`
 
 ## Ngrok
 
