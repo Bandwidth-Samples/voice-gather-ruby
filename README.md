@@ -1,6 +1,6 @@
 # Voice Gather
 
-<a href="https://dev.bandwidth.com/docs/voice/quickStart">
+<a href="https://dev.bandwidth.com/docs/voice/programmable-voice/quickStart/">
   <img src="./icon-voice.svg" title="Voice Quick Start Guide" alt="Voice Quick Start Guide"/>
 </a>
 
