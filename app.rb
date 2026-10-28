@@ -48,7 +48,7 @@ post '/calls' do
     halt 500
   end
 
-  status 200
+  status 204
 end
 
 post '/callbacks/outbound/voice' do
